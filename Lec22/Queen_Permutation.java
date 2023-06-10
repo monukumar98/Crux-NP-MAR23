@@ -1,4 +1,4 @@
-package Lec23;
+package Lec22;
 
 public class Queen_Permutation {
 
