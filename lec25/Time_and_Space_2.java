@@ -1,4 +1,4 @@
-package lec25;
+package Lec25;
 
 public class Time_and_Space_2 {
 
