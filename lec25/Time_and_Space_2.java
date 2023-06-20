@@ -107,9 +107,7 @@ public class Time_and_Space_2 {
 				System.out.println("hey");
 			}
 		}
-		for (int j = 0; j < n; j++) {
-
-		}
+		
 
 	}
 
