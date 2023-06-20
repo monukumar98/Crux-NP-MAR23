@@ -48,7 +48,7 @@ public class Time_and_Space_2 {
 			n /= 2;
 			n /= 3;
 		}
-		int k=1;
+		int k = 1;
 		while (i <= n) {
 			System.out.println("Hey");
 			// O(n/k)
@@ -73,7 +73,7 @@ public class Time_and_Space_2 {
 		}
 		for (i = 1; i <= n; i++) {
 			for (int j = 1; j <= i; j++) {
-				for ( k = 1; k <= 1000; k++) {
+				for (k = 1; k <= 1000; k++) {
 					// (O)(1000*N^2)
 
 				}
@@ -82,30 +82,33 @@ public class Time_and_Space_2 {
 
 		for (i = 1; i <= n; i++) {
 			for (int j = 1; j <= i * i; j++) {
-				for ( k = 1; k <= n / 2; k++) {
+				for (k = 1; k <= n / 2; k++) {
 					System.out.println("hey");
 					// O(N^4))
 				}
 			}
 		}
-		
-		for( i=1; i<=n; i*=2) {
+
+		for (i = 1; i <= n; i *= 2) {
 			System.out.println("hey");
-			//O(Log(N))
+			// O(Log(N))
 		}
 
 		for (i = n / 2; i <= n; i++) {
 			for (int j = 1; j <= n / 2; j++) {
-				for ( k = 1; k <= n; k = k * 2) {
+				for (k = 1; k <= n; k = k * 2) {
 					System.out.println("hey");
-					//O(N^2*log))
+					// O(N^2*log))
 				}
 			}
 		}
-		for(i=1; i<=n; i++) {
-			for(int j=1; j<=n; j+=i) {
+		for (i = 1; i <= n; i++) {
+			for (int j = 1; j <= n; j += i) {
 				System.out.println("hey");
 			}
+		}
+		for (int j = 0; j < n; j++) {
+
 		}
 
 	}
