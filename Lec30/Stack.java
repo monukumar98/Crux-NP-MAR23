@@ -2,7 +2,7 @@ package Lec30;
 
 public class Stack {
 
-	private int[] arr;
+	protected int[] arr;
 	private int idx = -1;
 
 	public Stack() {
@@ -23,7 +23,7 @@ public class Stack {
 		return idx == arr.length - 1;
 	}
 
-	public void push(int item) throws Exception{
+	public void push(int item) throws Exception {
 		if (isfull()) {
 			throw new Exception("Rajat bklol stack full hai ");
 		}
