@@ -2,8 +2,6 @@ package lec36;
 
 import java.util.Scanner;
 
-import com.sun.swing.internal.plaf.basic.resources.basic;
-
 public class BinaryTree {
 
 	public class Node {
