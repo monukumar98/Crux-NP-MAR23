@@ -1,6 +1,6 @@
 package Lec38;
 
-import Lec38.Diameter_Tree.TreeNode;
+
 
 public class Balanced_Binary_Tree {
 	public class TreeNode {
