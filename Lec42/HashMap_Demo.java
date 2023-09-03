@@ -16,7 +16,7 @@ public class HashMap_Demo {
 		map.put("Rajat_Bklol", 27);
 		map.put("Pooja", 98);
 //		map.put(null, 77);
-		//System.out.println(map);
+		System.out.println(map);
 //		Set<String> key = map.keySet();
 //		for (String k : key) {
 //			System.out.println(k + " " + map.get(k));
