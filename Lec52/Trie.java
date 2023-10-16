@@ -7,6 +7,7 @@ public class Trie {
 		char data;
 		HashMap<Character, Node> child = new HashMap<>();
 		boolean isterminal;
+		
 	}
 
 	private Node root;
@@ -24,11 +25,15 @@ public class Trie {
 			char ch = word.charAt(i);
 			if (curr.child.containsKey(ch)) {
 				curr = curr.child.get(ch);
+				
+				
 			} else {
 				Node nn = new Node();
 				nn.data = ch;
 				curr.child.put(ch, nn);
 				curr = nn;
+				
+				
 			}
 
 		}
